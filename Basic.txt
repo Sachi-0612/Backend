@@ -1,0 +1,14 @@
+install node
+
+initialize empty node package - "npm init"
+provide details
+
+in package.json add start command in scripts as "start": "node index.js"
+
+create index.js
+Index.js:
+const express = require('express')
+const app = express()
+
+terminal- npm i dotenv
+require('dotenv').config()-->[in index.js]
